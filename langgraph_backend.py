@@ -10,7 +10,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 # llm = ChatOpenAI(model='gpt-5-nano-2025-08-07')
-llm  = ChatOllama(model='mistral:latest')
+llm  = ChatOllama(model='qwen2.5-coder:7b')
 
 class ChatState(TypedDict):
     

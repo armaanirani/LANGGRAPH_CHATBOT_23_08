@@ -5,9 +5,13 @@ build/
 dist/
 wheels/
 *.egg-info
+*.bin
 
 # Virtual environments
 .venv
 
 # Environment variables
 .env
+
+# Database files
+*.db
